@@ -1,0 +1,76 @@
+<svg fill="none" viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            @font-face {
+              font-family: "Roboto Mono", monospace;";
+              src: url("../fonts/RobotoMono-Bold.ttf") format("truetype");
+              font-style: normal;
+              font-weight: bold;
+            }
+
+            .main {
+              display: flex;
+              flex-direction: column;
+              font-family: "Roboto Mono", monospace;
+              font-size: 20px;
+              font-weight: bold;
+            }
+
+            .curly-brackets_open, .curly-brackets_close {
+              display: flex;
+              justify-content: center;
+              background-color: black;
+              color: white;
+              border-radius: 3px;
+            }
+
+            .curly-brackets_open {
+              width: 213px;
+              height: 27px;
+            }
+
+            .curly-brackets_close {
+              width: 15px;
+              height: 27px;
+            }
+
+            .square-brackets {
+              margin-left: 50px;
+            }
+
+            .item {
+              display: flex;
+              margin-left: 100px;
+              align-items: center;
+            }
+
+            .item-img {
+              height: 21px;
+              margin: 4px 8px 0 0;
+            }
+            </style>
+
+            <div class="main">
+              <div class="curly-brackets_open">fullstack_adept = {</div>
+              <div class="square-brackets">'backend': [</div>
+              <div class="item"><img class="item-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />python,</div>
+              <div class="item"><img class="item-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />django,</div>
+              <div class="item"><img class="item-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />postgresql,</div>
+              <div class="square-brackets">],</div>
+
+              <div class="square-brackets">'frontend': [</div>
+              <div class="item"><img class="item-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />javascript,</div>
+              <div class="item"><img class="item-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />html,</div>
+              <div class="item"><img class="item-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />css,</div>
+              <div class="square-brackets">],</div>
+
+              <div class="square-brackets">'common': [</div>
+              <div class="item"><img class="item-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />git,</div>
+              <div class="square-brackets">],</div>
+              <div class="curly-brackets_close">}</div>
+            </div>
+        <image xlink:href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="0" y="0" height="50px" width="50px"/>
+        </div>
+    </foreignObject>
+</svg>
